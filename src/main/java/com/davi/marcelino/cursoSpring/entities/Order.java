@@ -8,6 +8,7 @@ import java.util.Set;
 
 import com.davi.marcelino.cursoSpring.entities.enums.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
