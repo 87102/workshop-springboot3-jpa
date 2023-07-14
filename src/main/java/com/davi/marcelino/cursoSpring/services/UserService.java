@@ -24,6 +24,8 @@ import com.davi.marcelino.cursoSpring.repositories.UserRepository;
 	return obj.get();
 	}
 	
-	
+	public User insert(User obj) {
+		return repository.save(obj);
+	}
 	
 }
