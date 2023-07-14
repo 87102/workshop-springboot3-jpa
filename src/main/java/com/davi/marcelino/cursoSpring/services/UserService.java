@@ -28,4 +28,8 @@ import com.davi.marcelino.cursoSpring.repositories.UserRepository;
 		return repository.save(obj);
 	}
 	
+	public void delete(long id) {
+		repository.deleteById(id);
+	}
+	
 }
